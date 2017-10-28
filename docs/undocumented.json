@@ -1,0 +1,1069 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/AVFoundation+Helpers.swift",
+      "line": 13,
+      "symbol": "URL.thumbnailForVideoAtURL()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/AssociatedObjects.swift",
+      "line": 22,
+      "symbol": "Associated",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/AssociatedObjects.swift",
+      "line": 24,
+      "symbol": "Associated.closure",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/Bundle+Helpers.swift",
+      "line": 16,
+      "symbol": "Bundle.loadNib(_:owner:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/CGFloat+Helpers.swift",
+      "line": 19,
+      "symbol": "CGFloat.toRadians()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/CGFloat+Helpers.swift",
+      "line": 29,
+      "symbol": "CGFloat.toRadiansInPlace()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/CGPoint+Helpers.swift",
+      "line": 9,
+      "symbol": "ScrollDirection",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/CGPoint+Helpers.swift",
+      "line": 10,
+      "symbol": "ScrollDirection.up",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/CGPoint+Helpers.swift",
+      "line": 11,
+      "symbol": "ScrollDirection.down",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/CGPoint+Helpers.swift",
+      "line": 16,
+      "symbol": "CGPoint.isNegative()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/Collection+Helpers.swift",
+      "line": 13,
+      "symbol": "Collection.parallelizedMap(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/Date+Helpers.swift",
+      "line": 164,
+      "symbol": "Date.minutesInAWeek",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/Date+Helpers.swift",
+      "line": 321,
+      "symbol": "Date.monthAsString",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/Date+Helpers.swift",
+      "line": 328,
+      "symbol": "Date.day",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/Dictionary+Helpers.swift",
+      "line": 232,
+      "symbol": "Dictionary.add(other:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/Eyerise+Helpers.swift",
+      "line": 9,
+      "symbol": "Eyerise",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/Eyerise+Helpers.swift",
+      "line": 121,
+      "symbol": "Eyerise.horizontalSizeClass",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/Eyerise+Helpers.swift",
+      "line": 125,
+      "symbol": "Eyerise.verticalSizeClass",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/Logging.swift",
+      "line": 49,
+      "symbol": "EyrLogger.prefix",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/Logging.swift",
+      "line": 51,
+      "symbol": "EyrLogger.Message",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/Logging.swift",
+      "line": 52,
+      "symbol": "EyrLogger.Message.code",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/Logging.swift",
+      "line": 53,
+      "symbol": "EyrLogger.Message.message",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/Logging.swift",
+      "line": 55,
+      "symbol": "EyrLogger.Message.init(code:message:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/Logging.swift",
+      "line": 78,
+      "symbol": "EyrLogger.level",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/Logging.swift",
+      "line": 106,
+      "symbol": "cnlLog(_:_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/Logging.swift",
+      "line": 110,
+      "symbol": "cnlLog(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/Logging.swift",
+      "line": 114,
+      "symbol": "cnlFatalError(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/Logging.swift",
+      "line": 118,
+      "symbol": "cnlFatalError(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/Logging.swift",
+      "line": 122,
+      "symbol": "assert(_:_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/Logging.swift",
+      "line": 126,
+      "symbol": "assert(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/String+Helpers.swift",
+      "line": 220,
+      "symbol": "String.glyphCount",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/String+Helpers.swift",
+      "line": 253,
+      "symbol": "String.emojiString",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/String+Helpers.swift",
+      "line": 558,
+      "symbol": "String.urlEncoded()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/String+Helpers.swift",
+      "line": 568,
+      "symbol": "String.urlDecoded()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/String+Helpers.swift",
+      "line": 579,
+      "symbol": "String.init(_:precision:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/String+Helpers.swift",
+      "line": 586,
+      "symbol": "String.init(_:precision:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/TimeInterval+Helpers.swift",
+      "line": 10,
+      "symbol": "TimeInterval.timeString()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIColor+Helpers.swift",
+      "line": 11,
+      "symbol": "UIColor.init(red:green:blue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIColor+Helpers.swift",
+      "line": 19,
+      "symbol": "UIColor.init(rgb:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIColor+Helpers.swift",
+      "line": 35,
+      "symbol": "UIColor.init(hexString:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIColor+Helpers.swift",
+      "line": 53,
+      "symbol": "UIColor.hexString(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIDevice+Helpers.swift",
+      "line": 9,
+      "symbol": "SystemArchitecture",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIDevice+Helpers.swift",
+      "line": 10,
+      "symbol": "SystemArchitecture.simulator",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIDevice+Helpers.swift",
+      "line": 10,
+      "symbol": "SystemArchitecture.unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIDevice+Helpers.swift",
+      "line": 10,
+      "symbol": "SystemArchitecture.x64",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIDevice+Helpers.swift",
+      "line": 10,
+      "symbol": "SystemArchitecture.x86_32",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIDevice+Helpers.swift",
+      "line": 92,
+      "symbol": "UIDevice.gatheredInfo",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIImage+Helpers.swift",
+      "line": 11,
+      "symbol": "UIImage.image(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIImage+Helpers.swift",
+      "line": 125,
+      "symbol": "UIImage.aspectHeightForWidth(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIImage+Helpers.swift",
+      "line": 228,
+      "symbol": "UIImage.aspectWidthFor(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIImageView+Helpers.swift",
+      "line": 13,
+      "symbol": "UIImageView.Loader",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIImageView+Helpers.swift",
+      "line": 14,
+      "symbol": "UIImageView.Loader.Size",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIImageView+Helpers.swift",
+      "line": 15,
+      "symbol": "UIImageView.Loader.Size.small",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIImageView+Helpers.swift",
+      "line": 16,
+      "symbol": "UIImageView.Loader.Size.large",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIImageView+Helpers.swift",
+      "line": 39,
+      "symbol": "UIImageView.Loader.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIImageView+Helpers.swift",
+      "line": 43,
+      "symbol": "UIImageView.Loader.layoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIImageView+Helpers.swift",
+      "line": 72,
+      "symbol": "UIImageView.bindPlaceholderWhile(feed:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIImageView+Helpers.swift",
+      "line": 85,
+      "symbol": "UIImageView.bindPlaceholderWhile(other:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIImageView+Helpers.swift",
+      "line": 98,
+      "symbol": "UIImageView.bindRefresh()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIImageView+Helpers.swift",
+      "line": 105,
+      "symbol": "UIImageView.bindPlaceholderWithBlured(_:downloading:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIImageView+Helpers.swift",
+      "line": 126,
+      "symbol": "UIImageView.imageFrame()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIImageView+Helpers.swift",
+      "line": 144,
+      "symbol": "UIImageView.originalUrl",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UILabel+Helpers.swift",
+      "line": 23,
+      "symbol": "UILabel.init(x:y:w:h:fontSize:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UILabel+Helpers.swift",
+      "line": 33,
+      "symbol": "UILabel.getEstimatedSize(_:height:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIScreen+Helpers.swift",
+      "line": 11,
+      "symbol": "UIScreen.DeviceType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIScreen+Helpers.swift",
+      "line": 12,
+      "symbol": "UIScreen.DeviceType.Unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIScreen+Helpers.swift",
+      "line": 12,
+      "symbol": "UIScreen.DeviceType.inch4",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIScreen+Helpers.swift",
+      "line": 12,
+      "symbol": "UIScreen.DeviceType.inch4_7",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIScreen+Helpers.swift",
+      "line": 12,
+      "symbol": "UIScreen.DeviceType.inch5_5",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UITextField+Helpers.swift",
+      "line": 51,
+      "symbol": "UITextField.textFieldValidationOptions.equalTo",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UITextField+Helpers.swift",
+      "line": 52,
+      "symbol": "UITextField.textFieldValidationOptions.greaterThan",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UITextField+Helpers.swift",
+      "line": 53,
+      "symbol": "UITextField.textFieldValidationOptions.greaterThanOrEqualTo",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UITextField+Helpers.swift",
+      "line": 54,
+      "symbol": "UITextField.textFieldValidationOptions.lessThan",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UITextField+Helpers.swift",
+      "line": 55,
+      "symbol": "UITextField.textFieldValidationOptions.lessThanOrEqualTo",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UITextField+Helpers.swift",
+      "line": 76,
+      "symbol": "UITextField.validateEmail()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 14,
+      "symbol": "BlockTap.init(target:action:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 18,
+      "symbol": "BlockTap.init(tapCount:fingerCount:action:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 35,
+      "symbol": "BlockTap.didTap(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 44,
+      "symbol": "UIView.hideBlurEffectWithAnimation()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 56,
+      "symbol": "UIView.addBlurEffect()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 73,
+      "symbol": "UIView.nibName",
+      "symbol_kind": "source.lang.swift.decl.var.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 78,
+      "symbol": "UIView.nib",
+      "symbol_kind": "source.lang.swift.decl.var.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 86,
+      "symbol": "UIView.fromNib(nibNameOrNil:type:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 110,
+      "symbol": "UIView.fromNib(nibNameOrNil:type:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 115,
+      "symbol": "UIView.fromNib(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 119,
+      "symbol": "UIView.roundCorners(_:radius:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 126,
+      "symbol": "UIView.addTapGesture(tapNumber:action:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 132,
+      "symbol": "UIView.shakeViewForTimes(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 154,
+      "symbol": "UIView.init(x:y:w:h:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 211,
+      "symbol": "UIView.resizeToFitWidth()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 218,
+      "symbol": "UIView.resizeToFitHeight()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 225,
+      "symbol": "UIView.x",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 234,
+      "symbol": "UIView.y",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 243,
+      "symbol": "UIView.w",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 252,
+      "symbol": "UIView.h",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 261,
+      "symbol": "UIView.left",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 270,
+      "symbol": "UIView.right",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 279,
+      "symbol": "UIView.top",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 288,
+      "symbol": "UIView.bottom",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 297,
+      "symbol": "UIView.origin",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 306,
+      "symbol": "UIView.centerX",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 315,
+      "symbol": "UIView.centerY",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 324,
+      "symbol": "UIView.vsize",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 333,
+      "symbol": "UIView.leftOffset(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 338,
+      "symbol": "UIView.rightOffset(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 343,
+      "symbol": "UIView.topOffset(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 348,
+      "symbol": "UIView.bottomOffset(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 353,
+      "symbol": "UIView.alignRight(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 357,
+      "symbol": "UIView.reorderSubViews(_:tagsToIgnore:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 371,
+      "symbol": "UIView.removeSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 407,
+      "symbol": "UIView.setRotationX(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 415,
+      "symbol": "UIView.setRotationY(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 423,
+      "symbol": "UIView.setRotationZ(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 431,
+      "symbol": "UIView.setRotation(x:y:z:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 441,
+      "symbol": "UIView.setScale(x:y:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 452,
+      "symbol": "UIView.setCornerRadius(radius:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 458,
+      "symbol": "UIView.addShadow(offset:radius:color:opacity:cornerRadius:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 469,
+      "symbol": "UIView.addBorder(width:color:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 476,
+      "symbol": "UIView.addBorderTop(size:color:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 482,
+      "symbol": "UIView.addBorderTopWithPadding(size:color:padding:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 487,
+      "symbol": "UIView.addBorderBottom(size:color:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 492,
+      "symbol": "UIView.addBorderLeft(size:color:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 497,
+      "symbol": "UIView.addBorderRight(size:color:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 510,
+      "symbol": "UIView.drawCircle(fillColor:strokeColor:strokeWidth:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 521,
+      "symbol": "UIView.drawStroke(width:color:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 540,
+      "symbol": "UIView.spring(animations:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 545,
+      "symbol": "UIView.spring(duration:animations:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 558,
+      "symbol": "UIView.animate(duration:animations:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 563,
+      "symbol": "UIView.animate(animations:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 568,
+      "symbol": "UIView.pop()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 576,
+      "symbol": "UIView.popBig()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 589,
+      "symbol": "UIView.toImage()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 601,
+      "symbol": "UIView.addTapGesture(tapNumber:target:action:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 608,
+      "symbol": "UIView.addSwipeGesture(direction:numberOfTouches:target:action:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 622,
+      "symbol": "UIView.addPanGesture(target:action:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 631,
+      "symbol": "UIView.addPinchGesture(target:action:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 640,
+      "symbol": "UIView.addLongPressGesture(target:action:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 676,
+      "symbol": "UIViewDefaultFadeDuration",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIView+Helpers.swift",
+      "line": 685,
+      "symbol": "UIView.fadeOut(_:delay:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIViewController+Helpers.swift",
+      "line": 81,
+      "symbol": "UIViewController.keyboardDidShowNotification(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIViewController+Helpers.swift",
+      "line": 89,
+      "symbol": "UIViewController.keyboardWillShowNotification(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIViewController+Helpers.swift",
+      "line": 97,
+      "symbol": "UIViewController.keyboardWillHideNotification(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIViewController+Helpers.swift",
+      "line": 105,
+      "symbol": "UIViewController.keyboardDidHideNotification(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIViewController+Helpers.swift",
+      "line": 113,
+      "symbol": "UIViewController.keyboardWillShowWithFrame(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIViewController+Helpers.swift",
+      "line": 117,
+      "symbol": "UIViewController.keyboardDidShowWithFrame(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIViewController+Helpers.swift",
+      "line": 121,
+      "symbol": "UIViewController.keyboardWillHideWithFrame(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIViewController+Helpers.swift",
+      "line": 125,
+      "symbol": "UIViewController.keyboardDidHideWithFrame(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIViewController+Helpers.swift",
+      "line": 130,
+      "symbol": "UIViewController.hideKeyboardWhenTappedAround(cancelTouches:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIViewController+Helpers.swift",
+      "line": 139,
+      "symbol": "UIViewController.dismissKeyboard()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UIViewController+Helpers.swift",
+      "line": 285,
+      "symbol": "UIViewController.hideKeyboardWhenTappedAroundAndCancelsTouchesInView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UnicodeScalar+Helpers.swift",
+      "line": 11,
+      "symbol": "UnicodeScalar.isEmoji",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/glebkarpushkin/Dev/Eyerise Extensions/Eyerise Extensions/UnicodeScalar+Helpers.swift",
+      "line": 29,
+      "symbol": "UnicodeScalar.isZeroWidthJoiner",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/glebkarpushkin/Dev/Eyerise Extensions"
+}

@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>UIImageView Extension Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Extension/UIImageView" class="dashAnchor"></a>
+    <a title="UIImageView Extension Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (74% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        UIImageView Extension Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/Associated.html">Associated</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BlockTap.html">BlockTap</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EyrURLCache.html">EyrURLCache</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Global Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:18Eyerise_Extensions25UIViewDefaultFadeDurationSdv">UIViewDefaultFadeDuration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:18Eyerise_Extensions19cachesDirectoryPathSSSgv">cachesDirectoryPath</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:18Eyerise_Extensions22documentsDirectoryPathSSSgv">documentsDirectoryPath</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/EyrLogLevel.html">EyrLogLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ScrollDirection.html">ScrollDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SystemArchitecture.html">SystemArchitecture</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Array.html">Array</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Bool.html">Bool</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Bundle.html">Bundle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CGFloat.html">CGFloat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CGPoint.html">CGPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CGRect.html">CGRect</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CIFilter.html">CIFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CLLocation.html">CLLocation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CLLocationCoordinate2D.html">CLLocationCoordinate2D</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Character.html">Character</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Collection.html">Collection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Data.html">Data</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Date.html">Date</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Dictionary.html">Dictionary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Double.html">Double</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/FloatingPoint.html">FloatingPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Int.html">Int</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/TimeInterval.html">TimeInterval</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/TimeZone.html">TimeZone</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Timer.html">Timer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIAlertController.html">UIAlertController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIApplication.html">UIApplication</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIButton.html">UIButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIColor.html">UIColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIDevice.html">UIDevice</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage.html">UIImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImageView.html">UIImageView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImageView/Loader.html">– Loader</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UILabel.html">UILabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIScreen.html">UIScreen</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIScreen/DeviceType.html">– DeviceType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIStoryboard.html">UIStoryboard</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UISwitch.html">UISwitch</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITextField.html">UITextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITextField/textFieldValidationOptions.html">– textFieldValidationOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITextView.html">UITextView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView.html">UIView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIViewController.html">UIViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIWindow.html">UIWindow</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UInt.html">UInt</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/URL.html">URL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UnicodeScalar.html">UnicodeScalar</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions1poiSo18NSAttributedStringCAD_ADtF">+(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions/+=(_:_:).html">+=(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions/-(_:_:).html">-(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions/--&gt;(_:_:).html">--&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions/--&gt;(_:_:).html">--&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions/--&gt;(_:_:).html">--&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions/--&gt;(_:_:).html">--&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions2leoiSb10Foundation4DateV_AEtF">&lt;=(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions2geoiSb10Foundation4DateV_AEtF">&gt;=(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions6assertySb_AA9EyrLoggerV7MessageVtF">assert(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions6assertySb_AA9EyrLoggerV7MessageVSays7CVarArg_pGdtF">assert(_:_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions11asyncGlobalyyycF">asyncGlobal(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions11asyncGlobalyxyc_yxctlF">asyncGlobal(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions11asyncGlobalyyyc_yyctF">asyncGlobal(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions9asyncMainyyycF">asyncMain(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions9asyncMainyxyc_yxctlF">asyncMain(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions9asyncMainyyyc_yyctF">asyncMain(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions13cnlFatalErrors5NeverOAA9EyrLoggerV7MessageVF">cnlFatalError(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions13cnlFatalErrors5NeverOAA9EyrLoggerV7MessageV_Says7CVarArg_pGdtF">cnlFatalError(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions6cnlLogyAA9EyrLoggerV7MessageV_AA0eD5LevelOtF">cnlLog(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions6cnlLogyAA9EyrLoggerV7MessageV_AA0eD5LevelOSays7CVarArg_pGdtF">cnlLog(_:_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions9hasPrefixSbSScSSF">hasPrefix(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions9hasSuffixSbSScSSF">hasSuffix(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions17runThisAfterDelayySd7seconds_yyc5aftertF">runThisAfterDelay(seconds:after:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions12runThisEverySo5TimerCSd7seconds_Sd17startAfterSecondsySo09CFRunLoopF0CSgc7handlertF">runThisEvery(seconds:startAfterSeconds:handler:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions19runThisInBackgroundyyycF">runThisInBackground(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions19runThisInMainThreadyyycF">runThisInMainThread(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions12syncCriticalyyp_yyctF">syncCritical(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions8syncMainyyycF">syncMain(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions2teoiS2bxc_xtlF">~=(_:_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:18Eyerise_Extensions16EyrDictionaryKeyP">EyrDictionaryKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:18Eyerise_Extensions18EyrDictionaryValueP">EyrDictionaryValue</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/CNLLocationCoordinate2DRect.html">CNLLocationCoordinate2DRect</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DeepLink.html">DeepLink</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DeepLinkComponents.html">DeepLinkComponents</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DeepLinkParameters.html">DeepLinkParameters</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Eyerise.html">Eyerise</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/EyrLogger.html">EyrLogger</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/EyrLogger/Message.html">– Message</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:18Eyerise_Extensions8EyrArraya">EyrArray</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:18Eyerise_Extensions13EyrDictionarya">EyrDictionary</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>UIImageView</h1>
+            
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So11UIImageViewC18Eyerise_ExtensionsE6LoaderC"></a>
+                    <a name="//apple_ref/swift/Class/Loader" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So11UIImageViewC18Eyerise_ExtensionsE6LoaderC">Loader</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Extensions/UIImageView/Loader.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">Loader</span><span class="p">:</span> <span class="kt">UIView</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So11UIImageViewC18Eyerise_ExtensionsE20bindPlaceholderWhileyyyc4feed_tF"></a>
+                    <a name="//apple_ref/swift/Method/bindPlaceholderWhile(feed:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So11UIImageViewC18Eyerise_ExtensionsE20bindPlaceholderWhileyyyc4feed_tF">bindPlaceholderWhile(feed:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">bindPlaceholderWhile</span><span class="p">(</span><span class="n">feed</span> <span class="nv">downloading</span><span class="p">:</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So11UIImageViewC18Eyerise_ExtensionsE20bindPlaceholderWhileyyyc5other_tF"></a>
+                    <a name="//apple_ref/swift/Method/bindPlaceholderWhile(other:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So11UIImageViewC18Eyerise_ExtensionsE20bindPlaceholderWhileyyyc5other_tF">bindPlaceholderWhile(other:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">bindPlaceholderWhile</span><span class="p">(</span><span class="n">other</span> <span class="nv">downloading</span><span class="p">:</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So11UIImageViewC18Eyerise_ExtensionsE11bindRefreshAbCE6LoaderCyF"></a>
+                    <a name="//apple_ref/swift/Method/bindRefresh()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So11UIImageViewC18Eyerise_ExtensionsE11bindRefreshAbCE6LoaderCyF">bindRefresh()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">bindRefresh</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Extensions/UIImageView/Loader.html">Loader</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So11UIImageViewC18Eyerise_ExtensionsE25bindPlaceholderWithBluredy10Foundation3URLVSg_yyycc11downloadingtF"></a>
+                    <a name="//apple_ref/swift/Method/bindPlaceholderWithBlured(_:downloading:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So11UIImageViewC18Eyerise_ExtensionsE25bindPlaceholderWithBluredy10Foundation3URLVSg_yyycc11downloadingtF">bindPlaceholderWithBlured(_:downloading:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">bindPlaceholderWithBlured</span><span class="p">(</span><span class="n">_</span> <span class="nv">imageToBlur</span><span class="p">:</span> <span class="kt">URL</span><span class="p">?,</span> <span class="nv">downloading</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="n">_</span> <span class="nv">done</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="p">())</span> <span class="o">-&gt;</span> <span class="p">())</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So11UIImageViewC18Eyerise_ExtensionsE10imageFrameSC6CGRectVyF"></a>
+                    <a name="//apple_ref/swift/Method/imageFrame()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So11UIImageViewC18Eyerise_ExtensionsE10imageFrameSC6CGRectVyF">imageFrame()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">imageFrame</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGRect</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So11UIImageViewC18Eyerise_ExtensionsE11originalUrl10Foundation3URLVv"></a>
+                    <a name="//apple_ref/swift/Property/originalUrl" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So11UIImageViewC18Eyerise_ExtensionsE11originalUrl10Foundation3URLVv">originalUrl</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">originalUrl</span><span class="p">:</span> <span class="kt">URL</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So11UIImageViewC18Eyerise_ExtensionsEAB12CoreGraphics7CGFloatV1x_AF1yAF1wAF1hSS9imageNametcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(x:y:w:h:imageName:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So11UIImageViewC18Eyerise_ExtensionsEAB12CoreGraphics7CGFloatV1x_AF1yAF1wAF1hSS9imageNametcfc">init(x:y:w:h:imageName:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Convenince init that takes coordinates of bottom left corner, height width and image name.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="n">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="nv">x</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">y</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">w</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">h</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">imageName</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So11UIImageViewC18Eyerise_ExtensionsEAB12CoreGraphics7CGFloatV1x_AF1ySS9imageNameAF12scaleToWidthtcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(x:y:imageName:scaleToWidth:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So11UIImageViewC18Eyerise_ExtensionsEAB12CoreGraphics7CGFloatV1x_AF1ySS9imageNameAF12scaleToWidthtcfc">init(x:y:imageName:scaleToWidth:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Convenience init that takes coordinates of bottom left corner, image name and scales image frame to width.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="n">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="nv">x</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">y</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">imageName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">scaleToWidth</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So11UIImageViewC18Eyerise_ExtensionsEAB12CoreGraphics7CGFloatV1x_AF1yAF1wAF1hSo0A0C5imagetcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(x:y:w:h:image:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So11UIImageViewC18Eyerise_ExtensionsEAB12CoreGraphics7CGFloatV1x_AF1yAF1wAF1hSo0A0C5imagetcfc">init(x:y:w:h:image:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Convenience init that takes coordinates of bottom left corner, width height and an UIImage Object.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="n">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="nv">x</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">y</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">w</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">h</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">image</span><span class="p">:</span> <span class="kt">UIImage</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So11UIImageViewC18Eyerise_ExtensionsEAB12CoreGraphics7CGFloatV1x_AF1ySo0A0C5imageAF12scaleToWidthtcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(x:y:image:scaleToWidth:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So11UIImageViewC18Eyerise_ExtensionsEAB12CoreGraphics7CGFloatV1x_AF1ySo0A0C5imageAF12scaleToWidthtcfc">init(x:y:image:scaleToWidth:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Convenience init that coordinates of bottom left corner, an UIImage object and scales image from to width.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="n">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="nv">x</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">y</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">image</span><span class="p">:</span> <span class="kt">UIImage</span><span class="p">,</span> <span class="nv">scaleToWidth</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So11UIImageViewC18Eyerise_ExtensionsE22scaleImageFrameToWidthy12CoreGraphics7CGFloatV5width_tF"></a>
+                    <a name="//apple_ref/swift/Method/scaleImageFrameToWidth(width:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So11UIImageViewC18Eyerise_ExtensionsE22scaleImageFrameToWidthy12CoreGraphics7CGFloatV5width_tF">scaleImageFrameToWidth(width:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>scales this ImageView size to fit the given width</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">scaleImageFrameToWidth</span><span class="p">(</span><span class="nv">width</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So11UIImageViewC18Eyerise_ExtensionsE23scaleImageFrameToHeighty12CoreGraphics7CGFloatV6height_tF"></a>
+                    <a name="//apple_ref/swift/Method/scaleImageFrameToHeight(height:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So11UIImageViewC18Eyerise_ExtensionsE23scaleImageFrameToHeighty12CoreGraphics7CGFloatV6height_tF">scaleImageFrameToHeight(height:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>scales this ImageView size to fit the given height</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">scaleImageFrameToHeight</span><span class="p">(</span><span class="nv">height</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So11UIImageViewC18Eyerise_ExtensionsE16roundSquareImageyyF"></a>
+                    <a name="//apple_ref/swift/Method/roundSquareImage()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So11UIImageViewC18Eyerise_ExtensionsE16roundSquareImageyyF">roundSquareImage()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Rounds up an image by clipping the corner radius to one half the frame width.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">roundSquareImage</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So11UIImageViewC18Eyerise_ExtensionsE5imageySS3url_tF"></a>
+                    <a name="//apple_ref/swift/Method/image(url:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So11UIImageViewC18Eyerise_ExtensionsE5imageySS3url_tF">image(url:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initializes an UIImage from URL and adds into current ImageView</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">image</span><span class="p">(</span><span class="nv">url</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So11UIImageViewC18Eyerise_ExtensionsE5imageySS3url_So0A0C11placeholdertF"></a>
+                    <a name="//apple_ref/swift/Method/image(url:placeholder:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So11UIImageViewC18Eyerise_ExtensionsE5imageySS3url_So0A0C11placeholdertF">image(url:placeholder:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initializes an UIImage from URL and adds into current ImageView with placeholder</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">image</span><span class="p">(</span><span class="nv">url</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">placeholder</span><span class="p">:</span> <span class="kt">UIImage</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So11UIImageViewC18Eyerise_ExtensionsE5imageySS3url_SS16placeholderNamedtF"></a>
+                    <a name="//apple_ref/swift/Method/image(url:placeholderNamed:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So11UIImageViewC18Eyerise_ExtensionsE5imageySS3url_SS16placeholderNamedtF">image(url:placeholderNamed:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initializes an UIImage from URL and adds into current ImageView with placeholder</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">image</span><span class="p">(</span><span class="nv">url</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">placeholderNamed</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2017 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2017-10-28)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

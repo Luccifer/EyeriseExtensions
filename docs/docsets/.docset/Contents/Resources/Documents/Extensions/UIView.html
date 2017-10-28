@@ -1,0 +1,2383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>UIView Extension Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Extension/UIView" class="dashAnchor"></a>
+    <a title="UIView Extension Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (74% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        UIView Extension Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/Associated.html">Associated</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BlockTap.html">BlockTap</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EyrURLCache.html">EyrURLCache</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Global Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:18Eyerise_Extensions25UIViewDefaultFadeDurationSdv">UIViewDefaultFadeDuration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:18Eyerise_Extensions19cachesDirectoryPathSSSgv">cachesDirectoryPath</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:18Eyerise_Extensions22documentsDirectoryPathSSSgv">documentsDirectoryPath</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/EyrLogLevel.html">EyrLogLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ScrollDirection.html">ScrollDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SystemArchitecture.html">SystemArchitecture</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Array.html">Array</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Bool.html">Bool</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Bundle.html">Bundle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CGFloat.html">CGFloat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CGPoint.html">CGPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CGRect.html">CGRect</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CIFilter.html">CIFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CLLocation.html">CLLocation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CLLocationCoordinate2D.html">CLLocationCoordinate2D</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Character.html">Character</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Collection.html">Collection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Data.html">Data</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Date.html">Date</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Dictionary.html">Dictionary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Double.html">Double</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/FloatingPoint.html">FloatingPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Int.html">Int</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/TimeInterval.html">TimeInterval</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/TimeZone.html">TimeZone</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Timer.html">Timer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIAlertController.html">UIAlertController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIApplication.html">UIApplication</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIButton.html">UIButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIColor.html">UIColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIDevice.html">UIDevice</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage.html">UIImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImageView.html">UIImageView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImageView/Loader.html">– Loader</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UILabel.html">UILabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIScreen.html">UIScreen</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIScreen/DeviceType.html">– DeviceType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIStoryboard.html">UIStoryboard</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UISwitch.html">UISwitch</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITextField.html">UITextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITextField/textFieldValidationOptions.html">– textFieldValidationOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITextView.html">UITextView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView.html">UIView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIViewController.html">UIViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIWindow.html">UIWindow</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UInt.html">UInt</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/URL.html">URL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UnicodeScalar.html">UnicodeScalar</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions1poiSo18NSAttributedStringCAD_ADtF">+(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions/+=(_:_:).html">+=(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions/-(_:_:).html">-(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions/--&gt;(_:_:).html">--&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions/--&gt;(_:_:).html">--&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions/--&gt;(_:_:).html">--&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions/--&gt;(_:_:).html">--&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions2leoiSb10Foundation4DateV_AEtF">&lt;=(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions2geoiSb10Foundation4DateV_AEtF">&gt;=(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions6assertySb_AA9EyrLoggerV7MessageVtF">assert(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions6assertySb_AA9EyrLoggerV7MessageVSays7CVarArg_pGdtF">assert(_:_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions11asyncGlobalyyycF">asyncGlobal(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions11asyncGlobalyxyc_yxctlF">asyncGlobal(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions11asyncGlobalyyyc_yyctF">asyncGlobal(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions9asyncMainyyycF">asyncMain(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions9asyncMainyxyc_yxctlF">asyncMain(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions9asyncMainyyyc_yyctF">asyncMain(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions13cnlFatalErrors5NeverOAA9EyrLoggerV7MessageVF">cnlFatalError(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions13cnlFatalErrors5NeverOAA9EyrLoggerV7MessageV_Says7CVarArg_pGdtF">cnlFatalError(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions6cnlLogyAA9EyrLoggerV7MessageV_AA0eD5LevelOtF">cnlLog(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions6cnlLogyAA9EyrLoggerV7MessageV_AA0eD5LevelOSays7CVarArg_pGdtF">cnlLog(_:_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions9hasPrefixSbSScSSF">hasPrefix(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions9hasSuffixSbSScSSF">hasSuffix(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions17runThisAfterDelayySd7seconds_yyc5aftertF">runThisAfterDelay(seconds:after:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions12runThisEverySo5TimerCSd7seconds_Sd17startAfterSecondsySo09CFRunLoopF0CSgc7handlertF">runThisEvery(seconds:startAfterSeconds:handler:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions19runThisInBackgroundyyycF">runThisInBackground(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions19runThisInMainThreadyyycF">runThisInMainThread(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions12syncCriticalyyp_yyctF">syncCritical(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions8syncMainyyycF">syncMain(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions2teoiS2bxc_xtlF">~=(_:_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:18Eyerise_Extensions16EyrDictionaryKeyP">EyrDictionaryKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:18Eyerise_Extensions18EyrDictionaryValueP">EyrDictionaryValue</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/CNLLocationCoordinate2DRect.html">CNLLocationCoordinate2DRect</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DeepLink.html">DeepLink</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DeepLinkComponents.html">DeepLinkComponents</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DeepLinkParameters.html">DeepLinkParameters</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Eyerise.html">Eyerise</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/EyrLogger.html">EyrLogger</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/EyrLogger/Message.html">– Message</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:18Eyerise_Extensions8EyrArraya">EyrArray</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:18Eyerise_Extensions13EyrDictionarya">EyrDictionary</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>UIView</h1>
+            
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE27hideBlurEffectWithAnimationyyF"></a>
+                    <a name="//apple_ref/swift/Method/hideBlurEffectWithAnimation()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE27hideBlurEffectWithAnimationyyF">hideBlurEffectWithAnimation()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">hideBlurEffectWithAnimation</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE13addBlurEffectyyF"></a>
+                    <a name="//apple_ref/swift/Method/addBlurEffect()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE13addBlurEffectyyF">addBlurEffect()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">addBlurEffect</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE7nibNameSSvZ"></a>
+                    <a name="//apple_ref/swift/Variable/nibName" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE7nibNameSSvZ">nibName</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="k">var</span> <span class="nv">nibName</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE3nibSo5UINibCSgvZ"></a>
+                    <a name="//apple_ref/swift/Variable/nib" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE3nibSo5UINibCSgvZ">nib</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="k">var</span> <span class="nv">nib</span><span class="p">:</span> <span class="kt">UINib</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE7fromNibxSgSSSg12nibNameOrNil_xm4typetABRbzlFZ"></a>
+                    <a name="//apple_ref/swift/Method/fromNib(nibNameOrNil:type:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE7fromNibxSgSSSg12nibNameOrNil_xm4typetABRbzlFZ">fromNib(nibNameOrNil:type:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kd">func</span> <span class="n">fromNib</span><span class="o">&lt;</span><span class="kt">T</span> <span class="p">:</span> <span class="kt">UIView</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">nibNameOrNil</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">type</span><span class="p">:</span> <span class="kt">T</span><span class="o">.</span><span class="k">Type</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">T</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE7fromNibxSSSg12nibNameOrNil_xm4typetABRbzlFZ"></a>
+                    <a name="//apple_ref/swift/Method/fromNib(nibNameOrNil:type:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE7fromNibxSSSg12nibNameOrNil_xm4typetABRbzlFZ">fromNib(nibNameOrNil:type:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kd">func</span> <span class="n">fromNib</span><span class="o">&lt;</span><span class="kt">T</span> <span class="p">:</span> <span class="kt">UIView</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">nibNameOrNil</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">type</span><span class="p">:</span> <span class="kt">T</span><span class="o">.</span><span class="k">Type</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">T</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE7fromNibABXDSSSgFZ"></a>
+                    <a name="//apple_ref/swift/Method/fromNib(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE7fromNibABXDSSSgFZ">fromNib(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">fromNib</span><span class="p">(</span><span class="n">_</span> <span class="nv">nibNameOrNil</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE12roundCornersySC12UIRectCornerV_12CoreGraphics7CGFloatV6radiustF"></a>
+                    <a name="//apple_ref/swift/Method/roundCorners(_:radius:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE12roundCornersySC12UIRectCornerV_12CoreGraphics7CGFloatV6radiustF">roundCorners(_:radius:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">roundCorners</span><span class="p">(</span><span class="n">_</span> <span class="nv">corners</span><span class="p">:</span> <span class="kt">UIRectCorner</span><span class="p">,</span> <span class="nv">radius</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE13addTapGestureySi9tapNumber_ySo05UITapF10RecognizerCcSg6actiontF"></a>
+                    <a name="//apple_ref/swift/Method/addTapGesture(tapNumber:action:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE13addTapGestureySi9tapNumber_ySo05UITapF10RecognizerCcSg6actiontF">addTapGesture(tapNumber:action:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addTapGesture</span><span class="p">(</span><span class="nv">tapNumber</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="nv">action</span><span class="p">:</span> <span class="p">((</span><span class="kt">UITapGestureRecognizer</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE17shakeViewForTimesySiF"></a>
+                    <a name="//apple_ref/swift/Method/shakeViewForTimes(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE17shakeViewForTimesySiF">shakeViewForTimes(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">shakeViewForTimes</span><span class="p">(</span><span class="n">_</span> <span class="nv">times</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsEAB12CoreGraphics7CGFloatV1x_AF1yAF1wAF1htcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(x:y:w:h:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsEAB12CoreGraphics7CGFloatV1x_AF1yAF1wAF1htcfc">init(x:y:w:h:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="n">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="nv">x</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">y</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">w</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">h</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsEA2B9superView_12CoreGraphics7CGFloatV7paddingtcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(superView:padding:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsEA2B9superView_12CoreGraphics7CGFloatV7paddingtcfc">init(superView:padding:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>puts padding around the view</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="n">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="nv">superView</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">,</span> <span class="nv">padding</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsEA2B9superView_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(superView:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsEA2B9superView_tcfc">init(superView:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Copies size of superview</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="n">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="nv">superView</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE11addSubviewsySayABGF"></a>
+                    <a name="//apple_ref/swift/Method/addSubviews(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE11addSubviewsySayABGF">addSubviews(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>add multiple subviews</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addSubviews</span><span class="p">(</span><span class="n">_</span> <span class="nv">views</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIView</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE19resizeToFitSubviewsyyF"></a>
+                    <a name="//apple_ref/swift/Method/resizeToFitSubviews()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE19resizeToFitSubviewsyyF">resizeToFitSubviews()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>resizes this view so it fits the largest subview</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">resizeToFitSubviews</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE19resizeToFitSubviewsySaySiGF"></a>
+                    <a name="//apple_ref/swift/Method/resizeToFitSubviews(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE19resizeToFitSubviewsySaySiGF">resizeToFitSubviews(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>resizes this view so it fits the largest subview</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">resizeToFitSubviews</span><span class="p">(</span><span class="n">_</span> <span class="nv">tagsToIgnore</span><span class="p">:</span> <span class="p">[</span><span class="kt">Int</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE16resizeToFitWidthyyF"></a>
+                    <a name="//apple_ref/swift/Method/resizeToFitWidth()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE16resizeToFitWidthyyF">resizeToFitWidth()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">resizeToFitWidth</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE17resizeToFitHeightyyF"></a>
+                    <a name="//apple_ref/swift/Method/resizeToFitHeight()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE17resizeToFitHeightyyF">resizeToFitHeight()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">resizeToFitHeight</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE1x12CoreGraphics7CGFloatVv"></a>
+                    <a name="//apple_ref/swift/Property/x" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE1x12CoreGraphics7CGFloatVv">x</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">x</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE1y12CoreGraphics7CGFloatVv"></a>
+                    <a name="//apple_ref/swift/Property/y" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE1y12CoreGraphics7CGFloatVv">y</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">y</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE1w12CoreGraphics7CGFloatVv"></a>
+                    <a name="//apple_ref/swift/Property/w" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE1w12CoreGraphics7CGFloatVv">w</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">w</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE1h12CoreGraphics7CGFloatVv"></a>
+                    <a name="//apple_ref/swift/Property/h" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE1h12CoreGraphics7CGFloatVv">h</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">h</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE4left12CoreGraphics7CGFloatVv"></a>
+                    <a name="//apple_ref/swift/Property/left" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE4left12CoreGraphics7CGFloatVv">left</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">left</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE5right12CoreGraphics7CGFloatVv"></a>
+                    <a name="//apple_ref/swift/Property/right" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE5right12CoreGraphics7CGFloatVv">right</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">right</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE3top12CoreGraphics7CGFloatVv"></a>
+                    <a name="//apple_ref/swift/Property/top" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE3top12CoreGraphics7CGFloatVv">top</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">top</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE6bottom12CoreGraphics7CGFloatVv"></a>
+                    <a name="//apple_ref/swift/Property/bottom" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE6bottom12CoreGraphics7CGFloatVv">bottom</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">bottom</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE6originSC7CGPointVv"></a>
+                    <a name="//apple_ref/swift/Property/origin" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE6originSC7CGPointVv">origin</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">origin</span><span class="p">:</span> <span class="kt">CGPoint</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE7centerX12CoreGraphics7CGFloatVv"></a>
+                    <a name="//apple_ref/swift/Property/centerX" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE7centerX12CoreGraphics7CGFloatVv">centerX</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">centerX</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE7centerY12CoreGraphics7CGFloatVv"></a>
+                    <a name="//apple_ref/swift/Property/centerY" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE7centerY12CoreGraphics7CGFloatVv">centerY</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">centerY</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE5vsizeSC6CGSizeVv"></a>
+                    <a name="//apple_ref/swift/Property/vsize" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE5vsizeSC6CGSizeVv">vsize</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">vsize</span><span class="p">:</span> <span class="kt">CGSize</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE10leftOffset12CoreGraphics7CGFloatVAGF"></a>
+                    <a name="//apple_ref/swift/Method/leftOffset(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE10leftOffset12CoreGraphics7CGFloatVAGF">leftOffset(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">leftOffset</span><span class="p">(</span><span class="n">_</span> <span class="nv">offset</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE11rightOffset12CoreGraphics7CGFloatVAGF"></a>
+                    <a name="//apple_ref/swift/Method/rightOffset(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE11rightOffset12CoreGraphics7CGFloatVAGF">rightOffset(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">rightOffset</span><span class="p">(</span><span class="n">_</span> <span class="nv">offset</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE9topOffset12CoreGraphics7CGFloatVAGF"></a>
+                    <a name="//apple_ref/swift/Method/topOffset(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE9topOffset12CoreGraphics7CGFloatVAGF">topOffset(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">topOffset</span><span class="p">(</span><span class="n">_</span> <span class="nv">offset</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE12bottomOffset12CoreGraphics7CGFloatVAGF"></a>
+                    <a name="//apple_ref/swift/Method/bottomOffset(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE12bottomOffset12CoreGraphics7CGFloatVAGF">bottomOffset(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">bottomOffset</span><span class="p">(</span><span class="n">_</span> <span class="nv">offset</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE10alignRight12CoreGraphics7CGFloatVAGF"></a>
+                    <a name="//apple_ref/swift/Method/alignRight(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE10alignRight12CoreGraphics7CGFloatVAGF">alignRight(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">alignRight</span><span class="p">(</span><span class="n">_</span> <span class="nv">offset</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE15reorderSubViews12CoreGraphics7CGFloatVSb_SaySiG12tagsToIgnoretF"></a>
+                    <a name="//apple_ref/swift/Method/reorderSubViews(_:tagsToIgnore:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE15reorderSubViews12CoreGraphics7CGFloatVSb_SaySiG12tagsToIgnoretF">reorderSubViews(_:tagsToIgnore:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">reorderSubViews</span><span class="p">(</span><span class="n">_</span> <span class="nv">reorder</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">,</span> <span class="nv">tagsToIgnore</span><span class="p">:</span> <span class="p">[</span><span class="kt">Int</span><span class="p">]</span> <span class="o">=</span> <span class="p">[])</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE14removeSubviewsyyF"></a>
+                    <a name="//apple_ref/swift/Method/removeSubviews()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE14removeSubviewsyyF">removeSubviews()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">removeSubviews</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE18centerXInSuperViewyyF"></a>
+                    <a name="//apple_ref/swift/Method/centerXInSuperView()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE18centerXInSuperViewyyF">centerXInSuperView()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Centers view in superview horizontally</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">centerXInSuperView</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE18centerYInSuperViewyyF"></a>
+                    <a name="//apple_ref/swift/Method/centerYInSuperView()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE18centerYInSuperViewyyF">centerYInSuperView()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Centers view in superview vertically</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">centerYInSuperView</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE17centerInSuperViewyyF"></a>
+                    <a name="//apple_ref/swift/Method/centerInSuperView()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE17centerInSuperViewyyF">centerInSuperView()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Centers view in superview horizontally &amp; vertically</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">centerInSuperView</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE12setRotationXy12CoreGraphics7CGFloatVF"></a>
+                    <a name="//apple_ref/swift/Method/setRotationX(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE12setRotationXy12CoreGraphics7CGFloatVF">setRotationX(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setRotationX</span><span class="p">(</span><span class="n">_</span> <span class="nv">x</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE12setRotationYy12CoreGraphics7CGFloatVF"></a>
+                    <a name="//apple_ref/swift/Method/setRotationY(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE12setRotationYy12CoreGraphics7CGFloatVF">setRotationY(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setRotationY</span><span class="p">(</span><span class="n">_</span> <span class="nv">y</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE12setRotationZy12CoreGraphics7CGFloatVF"></a>
+                    <a name="//apple_ref/swift/Method/setRotationZ(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE12setRotationZy12CoreGraphics7CGFloatVF">setRotationZ(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setRotationZ</span><span class="p">(</span><span class="n">_</span> <span class="nv">z</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE11setRotationy12CoreGraphics7CGFloatV1x_AG1yAG1ztF"></a>
+                    <a name="//apple_ref/swift/Method/setRotation(x:y:z:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE11setRotationy12CoreGraphics7CGFloatV1x_AG1yAG1ztF">setRotation(x:y:z:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setRotation</span><span class="p">(</span><span class="nv">x</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">y</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">z</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE8setScaley12CoreGraphics7CGFloatV1x_AG1ytF"></a>
+                    <a name="//apple_ref/swift/Method/setScale(x:y:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE8setScaley12CoreGraphics7CGFloatV1x_AG1ytF">setScale(x:y:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setScale</span><span class="p">(</span><span class="nv">x</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">y</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE15setCornerRadiusy12CoreGraphics7CGFloatV6radius_tF"></a>
+                    <a name="//apple_ref/swift/Method/setCornerRadius(radius:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE15setCornerRadiusy12CoreGraphics7CGFloatV6radius_tF">setCornerRadius(radius:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setCornerRadius</span><span class="p">(</span><span class="nv">radius</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE9addShadowySC6CGSizeV6offset_12CoreGraphics7CGFloatV6radiusSo7UIColorC5colorSf7opacityAJSg12cornerRadiustF"></a>
+                    <a name="//apple_ref/swift/Method/addShadow(offset:radius:color:opacity:cornerRadius:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE9addShadowySC6CGSizeV6offset_12CoreGraphics7CGFloatV6radiusSo7UIColorC5colorSf7opacityAJSg12cornerRadiustF">addShadow(offset:radius:color:opacity:cornerRadius:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addShadow</span><span class="p">(</span><span class="nv">offset</span><span class="p">:</span> <span class="kt">CGSize</span><span class="p">,</span> <span class="nv">radius</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">color</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">,</span> <span class="nv">opacity</span><span class="p">:</span> <span class="kt">Float</span><span class="p">,</span> <span class="nv">cornerRadius</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE9addBordery12CoreGraphics7CGFloatV5width_So7UIColorC5colortF"></a>
+                    <a name="//apple_ref/swift/Method/addBorder(width:color:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE9addBordery12CoreGraphics7CGFloatV5width_So7UIColorC5colortF">addBorder(width:color:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addBorder</span><span class="p">(</span><span class="nv">width</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">color</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE12addBorderTopy12CoreGraphics7CGFloatV4size_So7UIColorC5colortF"></a>
+                    <a name="//apple_ref/swift/Method/addBorderTop(size:color:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE12addBorderTopy12CoreGraphics7CGFloatV4size_So7UIColorC5colortF">addBorderTop(size:color:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addBorderTop</span><span class="p">(</span><span class="nv">size</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">color</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE23addBorderTopWithPaddingy12CoreGraphics7CGFloatV4size_So7UIColorC5colorAG7paddingtF"></a>
+                    <a name="//apple_ref/swift/Method/addBorderTopWithPadding(size:color:padding:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE23addBorderTopWithPaddingy12CoreGraphics7CGFloatV4size_So7UIColorC5colorAG7paddingtF">addBorderTopWithPadding(size:color:padding:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addBorderTopWithPadding</span><span class="p">(</span><span class="nv">size</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">color</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">,</span> <span class="nv">padding</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE15addBorderBottomy12CoreGraphics7CGFloatV4size_So7UIColorC5colortF"></a>
+                    <a name="//apple_ref/swift/Method/addBorderBottom(size:color:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE15addBorderBottomy12CoreGraphics7CGFloatV4size_So7UIColorC5colortF">addBorderBottom(size:color:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addBorderBottom</span><span class="p">(</span><span class="nv">size</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">color</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE13addBorderLefty12CoreGraphics7CGFloatV4size_So7UIColorC5colortF"></a>
+                    <a name="//apple_ref/swift/Method/addBorderLeft(size:color:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE13addBorderLefty12CoreGraphics7CGFloatV4size_So7UIColorC5colortF">addBorderLeft(size:color:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addBorderLeft</span><span class="p">(</span><span class="nv">size</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">color</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE14addBorderRighty12CoreGraphics7CGFloatV4size_So7UIColorC5colortF"></a>
+                    <a name="//apple_ref/swift/Method/addBorderRight(size:color:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE14addBorderRighty12CoreGraphics7CGFloatV4size_So7UIColorC5colortF">addBorderRight(size:color:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addBorderRight</span><span class="p">(</span><span class="nv">size</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">color</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE10drawCircleySo7UIColorC9fillColor_AF06strokeH012CoreGraphics7CGFloatV0I5WidthtF"></a>
+                    <a name="//apple_ref/swift/Method/drawCircle(fillColor:strokeColor:strokeWidth:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE10drawCircleySo7UIColorC9fillColor_AF06strokeH012CoreGraphics7CGFloatV0I5WidthtF">drawCircle(fillColor:strokeColor:strokeWidth:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">drawCircle</span><span class="p">(</span><span class="nv">fillColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">,</span> <span class="nv">strokeColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">,</span> <span class="nv">strokeWidth</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE10drawStrokey12CoreGraphics7CGFloatV5width_So7UIColorC5colortF"></a>
+                    <a name="//apple_ref/swift/Method/drawStroke(width:color:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE10drawStrokey12CoreGraphics7CGFloatV5width_So7UIColorC5colortF">drawStroke(width:color:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">drawStroke</span><span class="p">(</span><span class="nv">width</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">color</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE6springyyyc10animations_ySbcSg10completiontF"></a>
+                    <a name="//apple_ref/swift/Method/spring(animations:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE6springyyyc10animations_ySbcSg10completiontF">spring(animations:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">spring</span><span class="p">(</span><span class="nv">animations</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">),</span> <span class="nv">completion</span><span class="p">:</span> <span class="p">((</span><span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE6springySd8duration_yyc10animationsySbcSg10completiontF"></a>
+                    <a name="//apple_ref/swift/Method/spring(duration:animations:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE6springySd8duration_yyc10animationsySbcSg10completiontF">spring(duration:animations:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">spring</span><span class="p">(</span><span class="nv">duration</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">,</span> <span class="nv">animations</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">),</span> <span class="nv">completion</span><span class="p">:</span> <span class="p">((</span><span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE7animateySd8duration_yyc10animationsySbcSg10completiontF"></a>
+                    <a name="//apple_ref/swift/Method/animate(duration:animations:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE7animateySd8duration_yyc10animationsySbcSg10completiontF">animate(duration:animations:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">animate</span><span class="p">(</span><span class="nv">duration</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">,</span> <span class="nv">animations</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">),</span> <span class="nv">completion</span><span class="p">:</span> <span class="p">((</span><span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE7animateyyyc10animations_ySbcSg10completiontF"></a>
+                    <a name="//apple_ref/swift/Method/animate(animations:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE7animateyyyc10animations_ySbcSg10completiontF">animate(animations:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">animate</span><span class="p">(</span><span class="nv">animations</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">),</span> <span class="nv">completion</span><span class="p">:</span> <span class="p">((</span><span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE3popyyF"></a>
+                    <a name="//apple_ref/swift/Method/pop()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE3popyyF">pop()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">pop</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE6popBigyyF"></a>
+                    <a name="//apple_ref/swift/Method/popBig()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE6popBigyyF">popBig()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">popBig</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE7toImageSo7UIImageCyF"></a>
+                    <a name="//apple_ref/swift/Method/toImage()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE7toImageSo7UIImageCyF">toImage()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">toImage</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">UIImage</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE13addTapGestureySi9tapNumber_yXl6target10ObjectiveC8SelectorV6actiontF"></a>
+                    <a name="//apple_ref/swift/Method/addTapGesture(tapNumber:target:action:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE13addTapGestureySi9tapNumber_yXl6target10ObjectiveC8SelectorV6actiontF">addTapGesture(tapNumber:target:action:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addTapGesture</span><span class="p">(</span><span class="nv">tapNumber</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="nv">target</span><span class="p">:</span> <span class="kt">AnyObject</span><span class="p">,</span> <span class="nv">action</span><span class="p">:</span> <span class="kt">Selector</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE15addSwipeGestureySC07UISwipeF19RecognizerDirectionV9direction_Si15numberOfTouchesyXl6target10ObjectiveC8SelectorV6actiontF"></a>
+                    <a name="//apple_ref/swift/Method/addSwipeGesture(direction:numberOfTouches:target:action:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE15addSwipeGestureySC07UISwipeF19RecognizerDirectionV9direction_Si15numberOfTouchesyXl6target10ObjectiveC8SelectorV6actiontF">addSwipeGesture(direction:numberOfTouches:target:action:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addSwipeGesture</span><span class="p">(</span><span class="nv">direction</span><span class="p">:</span> <span class="kt">UISwipeGestureRecognizerDirection</span><span class="p">,</span> <span class="nv">numberOfTouches</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="nv">target</span><span class="p">:</span> <span class="kt">AnyObject</span><span class="p">,</span> <span class="nv">action</span><span class="p">:</span> <span class="kt">Selector</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE13addPanGestureyyXl6target_10ObjectiveC8SelectorV6actiontF"></a>
+                    <a name="//apple_ref/swift/Method/addPanGesture(target:action:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE13addPanGestureyyXl6target_10ObjectiveC8SelectorV6actiontF">addPanGesture(target:action:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addPanGesture</span><span class="p">(</span><span class="nv">target</span><span class="p">:</span> <span class="kt">AnyObject</span><span class="p">,</span> <span class="nv">action</span><span class="p">:</span> <span class="kt">Selector</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE15addPinchGestureyyXl6target_10ObjectiveC8SelectorV6actiontF"></a>
+                    <a name="//apple_ref/swift/Method/addPinchGesture(target:action:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE15addPinchGestureyyXl6target_10ObjectiveC8SelectorV6actiontF">addPinchGesture(target:action:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addPinchGesture</span><span class="p">(</span><span class="nv">target</span><span class="p">:</span> <span class="kt">AnyObject</span><span class="p">,</span> <span class="nv">action</span><span class="p">:</span> <span class="kt">Selector</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE19addLongPressGestureyyXl6target_10ObjectiveC8SelectorV6actiontF"></a>
+                    <a name="//apple_ref/swift/Method/addLongPressGesture(target:action:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE19addLongPressGestureyyXl6target_10ObjectiveC8SelectorV6actiontF">addLongPressGesture(target:action:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addLongPressGesture</span><span class="p">(</span><span class="nv">target</span><span class="p">:</span> <span class="kt">AnyObject</span><span class="p">,</span> <span class="nv">action</span><span class="p">:</span> <span class="kt">Selector</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE9roundViewySo7UIColorCSg15withBorderColor_12CoreGraphics7CGFloatVSg0gH5WidthtF"></a>
+                    <a name="//apple_ref/swift/Method/roundView(withBorderColor:withBorderWidth:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE9roundViewySo7UIColorCSg15withBorderColor_12CoreGraphics7CGFloatVSg0gH5WidthtF">roundView(withBorderColor:withBorderWidth:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Mask square/rectangle UIView with a circular/capsule cover, with a border of desired color and width around it</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">roundView</span><span class="p">(</span><span class="n">withBorderColor</span> <span class="nv">color</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="n">withBorderWidth</span> <span class="nv">width</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE9nakedViewyyF"></a>
+                    <a name="//apple_ref/swift/Method/nakedView()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE9nakedViewyyF">nakedView()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Remove all masking around UIView</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">nakedView</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE8rootViewAByF"></a>
+                    <a name="//apple_ref/swift/Method/rootView()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE8rootViewAByF">rootView()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Loops until it finds the top root view.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">rootView</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">UIView</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE6fadeInySdSg_AE5delayySbcSg10completiontF"></a>
+                    <a name="//apple_ref/swift/Method/fadeIn(_:delay:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE6fadeInySdSg_AE5delayySbcSg10completiontF">fadeIn(_:delay:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Fade in with duration, delay and completion block.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">fadeIn</span><span class="p">(</span><span class="n">_</span> <span class="nv">duration</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">?</span> <span class="o">=</span> <span class="kt"><a href="../Global Variables.html#/s:18Eyerise_Extensions25UIViewDefaultFadeDurationSdv">UIViewDefaultFadeDuration</a></span><span class="p">,</span> <span class="nv">delay</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">?</span> <span class="o">=</span> <span class="mf">0.0</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="p">((</span><span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE7fadeOutySdSg_AE5delayySbcSg10completiontF"></a>
+                    <a name="//apple_ref/swift/Method/fadeOut(_:delay:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE7fadeOutySdSg_AE5delayySbcSg10completiontF">fadeOut(_:delay:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">fadeOut</span><span class="p">(</span><span class="n">_</span> <span class="nv">duration</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">?</span> <span class="o">=</span> <span class="kt"><a href="../Global Variables.html#/s:18Eyerise_Extensions25UIViewDefaultFadeDurationSdv">UIViewDefaultFadeDuration</a></span><span class="p">,</span> <span class="nv">delay</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">?</span> <span class="o">=</span> <span class="mf">0.0</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="p">((</span><span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC18Eyerise_ExtensionsE6fadeToy12CoreGraphics7CGFloatV_SdSg8durationAH5delayySbcSg10completiontF"></a>
+                    <a name="//apple_ref/swift/Method/fadeTo(_:duration:delay:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC18Eyerise_ExtensionsE6fadeToy12CoreGraphics7CGFloatV_SdSg8durationAH5delayySbcSg10completiontF">fadeTo(_:duration:delay:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Fade to specific value with duration, delay and completion block.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">fadeTo</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">duration</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">?</span> <span class="o">=</span> <span class="kt"><a href="../Global Variables.html#/s:18Eyerise_Extensions25UIViewDefaultFadeDurationSdv">UIViewDefaultFadeDuration</a></span><span class="p">,</span> <span class="nv">delay</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">?</span> <span class="o">=</span> <span class="mf">0.0</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="p">((</span><span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2017 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2017-10-28)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

@@ -1,0 +1,1408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>UIViewController Extension Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Extension/UIViewController" class="dashAnchor"></a>
+    <a title="UIViewController Extension Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (74% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        UIViewController Extension Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/Associated.html">Associated</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BlockTap.html">BlockTap</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EyrURLCache.html">EyrURLCache</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Global Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:18Eyerise_Extensions25UIViewDefaultFadeDurationSdv">UIViewDefaultFadeDuration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:18Eyerise_Extensions19cachesDirectoryPathSSSgv">cachesDirectoryPath</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:18Eyerise_Extensions22documentsDirectoryPathSSSgv">documentsDirectoryPath</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/EyrLogLevel.html">EyrLogLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ScrollDirection.html">ScrollDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SystemArchitecture.html">SystemArchitecture</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Array.html">Array</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Bool.html">Bool</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Bundle.html">Bundle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CGFloat.html">CGFloat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CGPoint.html">CGPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CGRect.html">CGRect</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CIFilter.html">CIFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CLLocation.html">CLLocation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CLLocationCoordinate2D.html">CLLocationCoordinate2D</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Character.html">Character</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Collection.html">Collection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Data.html">Data</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Date.html">Date</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Dictionary.html">Dictionary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Double.html">Double</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/FloatingPoint.html">FloatingPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Int.html">Int</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/TimeInterval.html">TimeInterval</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/TimeZone.html">TimeZone</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Timer.html">Timer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIAlertController.html">UIAlertController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIApplication.html">UIApplication</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIButton.html">UIButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIColor.html">UIColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIDevice.html">UIDevice</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage.html">UIImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImageView.html">UIImageView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImageView/Loader.html">– Loader</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UILabel.html">UILabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIScreen.html">UIScreen</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIScreen/DeviceType.html">– DeviceType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIStoryboard.html">UIStoryboard</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UISwitch.html">UISwitch</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITextField.html">UITextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITextField/textFieldValidationOptions.html">– textFieldValidationOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITextView.html">UITextView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView.html">UIView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIViewController.html">UIViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIWindow.html">UIWindow</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UInt.html">UInt</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/URL.html">URL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UnicodeScalar.html">UnicodeScalar</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions1poiSo18NSAttributedStringCAD_ADtF">+(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions/+=(_:_:).html">+=(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions/-(_:_:).html">-(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions/--&gt;(_:_:).html">--&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions/--&gt;(_:_:).html">--&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions/--&gt;(_:_:).html">--&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions/--&gt;(_:_:).html">--&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions2leoiSb10Foundation4DateV_AEtF">&lt;=(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions2geoiSb10Foundation4DateV_AEtF">&gt;=(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions6assertySb_AA9EyrLoggerV7MessageVtF">assert(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions6assertySb_AA9EyrLoggerV7MessageVSays7CVarArg_pGdtF">assert(_:_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions11asyncGlobalyyycF">asyncGlobal(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions11asyncGlobalyxyc_yxctlF">asyncGlobal(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions11asyncGlobalyyyc_yyctF">asyncGlobal(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions9asyncMainyyycF">asyncMain(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions9asyncMainyxyc_yxctlF">asyncMain(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions9asyncMainyyyc_yyctF">asyncMain(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions13cnlFatalErrors5NeverOAA9EyrLoggerV7MessageVF">cnlFatalError(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions13cnlFatalErrors5NeverOAA9EyrLoggerV7MessageV_Says7CVarArg_pGdtF">cnlFatalError(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions6cnlLogyAA9EyrLoggerV7MessageV_AA0eD5LevelOtF">cnlLog(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions6cnlLogyAA9EyrLoggerV7MessageV_AA0eD5LevelOSays7CVarArg_pGdtF">cnlLog(_:_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions9hasPrefixSbSScSSF">hasPrefix(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions9hasSuffixSbSScSSF">hasSuffix(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions17runThisAfterDelayySd7seconds_yyc5aftertF">runThisAfterDelay(seconds:after:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions12runThisEverySo5TimerCSd7seconds_Sd17startAfterSecondsySo09CFRunLoopF0CSgc7handlertF">runThisEvery(seconds:startAfterSeconds:handler:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions19runThisInBackgroundyyycF">runThisInBackground(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions19runThisInMainThreadyyycF">runThisInMainThread(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions12syncCriticalyyp_yyctF">syncCritical(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions8syncMainyyycF">syncMain(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Eyerise_Extensions2teoiS2bxc_xtlF">~=(_:_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:18Eyerise_Extensions16EyrDictionaryKeyP">EyrDictionaryKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:18Eyerise_Extensions18EyrDictionaryValueP">EyrDictionaryValue</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/CNLLocationCoordinate2DRect.html">CNLLocationCoordinate2DRect</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DeepLink.html">DeepLink</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DeepLinkComponents.html">DeepLinkComponents</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DeepLinkParameters.html">DeepLinkParameters</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Eyerise.html">Eyerise</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/EyrLogger.html">EyrLogger</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/EyrLogger/Message.html">– Message</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:18Eyerise_Extensions8EyrArraya">EyrArray</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:18Eyerise_Extensions13EyrDictionarya">EyrDictionary</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>UIViewController</h1>
+            
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Notifications"></a>
+                <a name="//apple_ref/swift/Section/Notifications" class="dashAnchor"></a>
+                <a href="#/Notifications">
+                  <h3 class="section-name">Notifications</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So16UIViewControllerC18Eyerise_ExtensionsE23addNotificationObserverySS_10ObjectiveC8SelectorV8selectortF"></a>
+                    <a name="//apple_ref/swift/Method/addNotificationObserver(_:selector:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So16UIViewControllerC18Eyerise_ExtensionsE23addNotificationObserverySS_10ObjectiveC8SelectorV8selectortF">addNotificationObserver(_:selector:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Adds an NotificationCenter with name and Selector</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">addNotificationObserver</span><span class="p">(</span><span class="n">_</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">selector</span><span class="p">:</span> <span class="kt">Selector</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So16UIViewControllerC18Eyerise_ExtensionsE26removeNotificationObserverySSF"></a>
+                    <a name="//apple_ref/swift/Method/removeNotificationObserver(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So16UIViewControllerC18Eyerise_ExtensionsE26removeNotificationObserverySSF">removeNotificationObserver(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Removes an NSNotificationCenter for name</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">removeNotificationObserver</span><span class="p">(</span><span class="n">_</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So16UIViewControllerC18Eyerise_ExtensionsE26removeNotificationObserveryyF"></a>
+                    <a name="//apple_ref/swift/Method/removeNotificationObserver()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So16UIViewControllerC18Eyerise_ExtensionsE26removeNotificationObserveryyF">removeNotificationObserver()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Removes NotificationCenter&rsquo;d observer</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">removeNotificationObserver</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So16UIViewControllerC18Eyerise_ExtensionsE31addKeyboardWillShowNotificationyyF"></a>
+                    <a name="//apple_ref/swift/Method/addKeyboardWillShowNotification()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So16UIViewControllerC18Eyerise_ExtensionsE31addKeyboardWillShowNotificationyyF">addKeyboardWillShowNotification()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Adds a NotificationCenter Observer for keyboardWillShowNotification()</p>
+
+<p>⚠️ You also need to implement <code>keyboardWillShowNotification(_ notification: Notification)</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">addKeyboardWillShowNotification</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So16UIViewControllerC18Eyerise_ExtensionsE30addKeyboardDidShowNotificationyyF"></a>
+                    <a name="//apple_ref/swift/Method/addKeyboardDidShowNotification()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So16UIViewControllerC18Eyerise_ExtensionsE30addKeyboardDidShowNotificationyyF">addKeyboardDidShowNotification()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Adds a NotificationCenter Observer for keyboardDidShowNotification()</p>
+
+<p>⚠️ You also need to implement <code>keyboardDidShowNotification(_ notification: Notification)</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addKeyboardDidShowNotification</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So16UIViewControllerC18Eyerise_ExtensionsE31addKeyboardWillHideNotificationyyF"></a>
+                    <a name="//apple_ref/swift/Method/addKeyboardWillHideNotification()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So16UIViewControllerC18Eyerise_ExtensionsE31addKeyboardWillHideNotificationyyF">addKeyboardWillHideNotification()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Adds a NotificationCenter Observer for keyboardWillHideNotification()</p>
+
+<p>⚠️ You also need to implement <code>keyboardWillHideNotification(_ notification: Notification)</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">addKeyboardWillHideNotification</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So16UIViewControllerC18Eyerise_ExtensionsE30addKeyboardDidHideNotificationyyF"></a>
+                    <a name="//apple_ref/swift/Method/addKeyboardDidHideNotification()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So16UIViewControllerC18Eyerise_ExtensionsE30addKeyboardDidHideNotificationyyF">addKeyboardDidHideNotification()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Adds a NotificationCenter Observer for keyboardDidHideNotification()</p>
+
+<p>⚠️ You also need to implement <code>keyboardDidHideNotification(_ notification: Notification)</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">addKeyboardDidHideNotification</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So16UIViewControllerC18Eyerise_ExtensionsE34removeKeyboardWillShowNotificationyyF"></a>
+                    <a name="//apple_ref/swift/Method/removeKeyboardWillShowNotification()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So16UIViewControllerC18Eyerise_ExtensionsE34removeKeyboardWillShowNotificationyyF">removeKeyboardWillShowNotification()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Removes keyboardWillShowNotification()&lsquo;s NotificationCenter Observer</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">removeKeyboardWillShowNotification</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So16UIViewControllerC18Eyerise_ExtensionsE33removeKeyboardDidShowNotificationyyF"></a>
+                    <a name="//apple_ref/swift/Method/removeKeyboardDidShowNotification()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So16UIViewControllerC18Eyerise_ExtensionsE33removeKeyboardDidShowNotificationyyF">removeKeyboardDidShowNotification()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Removes keyboardDidShowNotification()&lsquo;s NotificationCenter Observer</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">removeKeyboardDidShowNotification</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So16UIViewControllerC18Eyerise_ExtensionsE34removeKeyboardWillHideNotificationyyF"></a>
+                    <a name="//apple_ref/swift/Method/removeKeyboardWillHideNotification()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So16UIViewControllerC18Eyerise_ExtensionsE34removeKeyboardWillHideNotificationyyF">removeKeyboardWillHideNotification()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>sRemoves keyboardWillHideNotification()&lsquo;s NotificationCenter Observer</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">removeKeyboardWillHideNotification</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So16UIViewControllerC18Eyerise_ExtensionsE33removeKeyboardDidHideNotificationyyF"></a>
+                    <a name="//apple_ref/swift/Method/removeKeyboardDidHideNotification()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So16UIViewControllerC18Eyerise_ExtensionsE33removeKeyboardDidHideNotificationyyF">removeKeyboardDidHideNotification()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Removes keyboardDidHideNotification()&lsquo;s NotificationCenter Observer</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">removeKeyboardDidHideNotification</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@Eyerise_Extensions@@objc(cs)UIViewController(im)keyboardDidShowNotification:"></a>
+                    <a name="//apple_ref/swift/Method/keyboardDidShowNotification(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@Eyerise_Extensions@@objc(cs)UIViewController(im)keyboardDidShowNotification:">keyboardDidShowNotification(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@objc</span> <span class="n">open</span> <span class="kd">func</span> <span class="nf">keyboardDidShowNotification</span><span class="p">(</span><span class="n">_</span> <span class="nv">notification</span><span class="p">:</span> <span class="kt">Notification</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@Eyerise_Extensions@@objc(cs)UIViewController(im)keyboardWillShowNotification:"></a>
+                    <a name="//apple_ref/swift/Method/keyboardWillShowNotification(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@Eyerise_Extensions@@objc(cs)UIViewController(im)keyboardWillShowNotification:">keyboardWillShowNotification(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@objc</span> <span class="n">open</span> <span class="kd">func</span> <span class="nf">keyboardWillShowNotification</span><span class="p">(</span><span class="n">_</span> <span class="nv">notification</span><span class="p">:</span> <span class="kt">Notification</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@Eyerise_Extensions@@objc(cs)UIViewController(im)keyboardWillHideNotification:"></a>
+                    <a name="//apple_ref/swift/Method/keyboardWillHideNotification(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@Eyerise_Extensions@@objc(cs)UIViewController(im)keyboardWillHideNotification:">keyboardWillHideNotification(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@objc</span> <span class="n">open</span> <span class="kd">func</span> <span class="nf">keyboardWillHideNotification</span><span class="p">(</span><span class="n">_</span> <span class="nv">notification</span><span class="p">:</span> <span class="kt">Notification</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@Eyerise_Extensions@@objc(cs)UIViewController(im)keyboardDidHideNotification:"></a>
+                    <a name="//apple_ref/swift/Method/keyboardDidHideNotification(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@Eyerise_Extensions@@objc(cs)UIViewController(im)keyboardDidHideNotification:">keyboardDidHideNotification(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@objc</span> <span class="n">open</span> <span class="kd">func</span> <span class="nf">keyboardDidHideNotification</span><span class="p">(</span><span class="n">_</span> <span class="nv">notification</span><span class="p">:</span> <span class="kt">Notification</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So16UIViewControllerC18Eyerise_ExtensionsE25keyboardWillShowWithFrameySC6CGRectVF"></a>
+                    <a name="//apple_ref/swift/Method/keyboardWillShowWithFrame(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So16UIViewControllerC18Eyerise_ExtensionsE25keyboardWillShowWithFrameySC6CGRectVF">keyboardWillShowWithFrame(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">keyboardWillShowWithFrame</span><span class="p">(</span><span class="n">_</span> <span class="nv">frame</span><span class="p">:</span> <span class="kt">CGRect</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So16UIViewControllerC18Eyerise_ExtensionsE24keyboardDidShowWithFrameySC6CGRectVF"></a>
+                    <a name="//apple_ref/swift/Method/keyboardDidShowWithFrame(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So16UIViewControllerC18Eyerise_ExtensionsE24keyboardDidShowWithFrameySC6CGRectVF">keyboardDidShowWithFrame(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">keyboardDidShowWithFrame</span><span class="p">(</span><span class="n">_</span> <span class="nv">frame</span><span class="p">:</span> <span class="kt">CGRect</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So16UIViewControllerC18Eyerise_ExtensionsE25keyboardWillHideWithFrameySC6CGRectVF"></a>
+                    <a name="//apple_ref/swift/Method/keyboardWillHideWithFrame(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So16UIViewControllerC18Eyerise_ExtensionsE25keyboardWillHideWithFrameySC6CGRectVF">keyboardWillHideWithFrame(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">keyboardWillHideWithFrame</span><span class="p">(</span><span class="n">_</span> <span class="nv">frame</span><span class="p">:</span> <span class="kt">CGRect</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So16UIViewControllerC18Eyerise_ExtensionsE24keyboardDidHideWithFrameySC6CGRectVF"></a>
+                    <a name="//apple_ref/swift/Method/keyboardDidHideWithFrame(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So16UIViewControllerC18Eyerise_ExtensionsE24keyboardDidHideWithFrameySC6CGRectVF">keyboardDidHideWithFrame(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">keyboardDidHideWithFrame</span><span class="p">(</span><span class="n">_</span> <span class="nv">frame</span><span class="p">:</span> <span class="kt">CGRect</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So16UIViewControllerC18Eyerise_ExtensionsE28hideKeyboardWhenTappedAroundySb13cancelTouches_tF"></a>
+                    <a name="//apple_ref/swift/Method/hideKeyboardWhenTappedAround(cancelTouches:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So16UIViewControllerC18Eyerise_ExtensionsE28hideKeyboardWhenTappedAroundySb13cancelTouches_tF">hideKeyboardWhenTappedAround(cancelTouches:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">hideKeyboardWhenTappedAround</span><span class="p">(</span><span class="nv">cancelTouches</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@Eyerise_Extensions@@objc(cs)UIViewController(im)dismissKeyboard"></a>
+                    <a name="//apple_ref/swift/Method/dismissKeyboard()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@Eyerise_Extensions@@objc(cs)UIViewController(im)dismissKeyboard">dismissKeyboard()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@objc</span> <span class="n">open</span> <span class="kd">func</span> <span class="nf">dismissKeyboard</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/VC%20Container"></a>
+                <a name="//apple_ref/swift/Section/VC Container" class="dashAnchor"></a>
+                <a href="#/VC%20Container">
+                  <h3 class="section-name">VC Container</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So16UIViewControllerC18Eyerise_ExtensionsE3top12CoreGraphics7CGFloatVv"></a>
+                    <a name="//apple_ref/swift/Property/top" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So16UIViewControllerC18Eyerise_ExtensionsE3top12CoreGraphics7CGFloatVv">top</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns maximum y of the ViewController</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="k">var</span> <span class="nv">top</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So16UIViewControllerC18Eyerise_ExtensionsE6bottom12CoreGraphics7CGFloatVv"></a>
+                    <a name="//apple_ref/swift/Property/bottom" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So16UIViewControllerC18Eyerise_ExtensionsE6bottom12CoreGraphics7CGFloatVv">bottom</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns minimum y of the ViewController</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="k">var</span> <span class="nv">bottom</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So16UIViewControllerC18Eyerise_ExtensionsE12tabBarHeight12CoreGraphics7CGFloatVv"></a>
+                    <a name="//apple_ref/swift/Property/tabBarHeight" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So16UIViewControllerC18Eyerise_ExtensionsE12tabBarHeight12CoreGraphics7CGFloatVv">tabBarHeight</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns Tab Bar&rsquo;s height</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="k">var</span> <span class="nv">tabBarHeight</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So16UIViewControllerC18Eyerise_ExtensionsE19navigationBarHeight12CoreGraphics7CGFloatVv"></a>
+                    <a name="//apple_ref/swift/Property/navigationBarHeight" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So16UIViewControllerC18Eyerise_ExtensionsE19navigationBarHeight12CoreGraphics7CGFloatVv">navigationBarHeight</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns Navigation Bar&rsquo;s height</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="k">var</span> <span class="nv">navigationBarHeight</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So16UIViewControllerC18Eyerise_ExtensionsE18navigationBarColorSo7UIColorCSgv"></a>
+                    <a name="//apple_ref/swift/Property/navigationBarColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So16UIViewControllerC18Eyerise_ExtensionsE18navigationBarColorSo7UIColorCSgv">navigationBarColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns Navigation Bar&rsquo;s color</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="k">var</span> <span class="nv">navigationBarColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So16UIViewControllerC18Eyerise_ExtensionsE6navBarSo012UINavigationF0CSgv"></a>
+                    <a name="//apple_ref/swift/Property/navBar" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So16UIViewControllerC18Eyerise_ExtensionsE6navBarSo012UINavigationF0CSgv">navBar</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns current Navigation Bar</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="k">var</span> <span class="nv">navBar</span><span class="p">:</span> <span class="kt">UINavigationBar</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So16UIViewControllerC18Eyerise_ExtensionsE16applicationFrameSC6CGRectVv"></a>
+                    <a name="//apple_ref/swift/Property/applicationFrame" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So16UIViewControllerC18Eyerise_ExtensionsE16applicationFrameSC6CGRectVv">applicationFrame</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>EZSwiftExtensions</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="k">var</span> <span class="nv">applicationFrame</span><span class="p">:</span> <span class="kt">CGRect</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/VC%20Flow"></a>
+                <a name="//apple_ref/swift/Section/VC Flow" class="dashAnchor"></a>
+                <a href="#/VC%20Flow">
+                  <h3 class="section-name">VC Flow</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So16UIViewControllerC18Eyerise_ExtensionsE6pushVCyABF"></a>
+                    <a name="//apple_ref/swift/Method/pushVC(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So16UIViewControllerC18Eyerise_ExtensionsE6pushVCyABF">pushVC(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Pushes a view controller onto the receiver’s stack and updates the display.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">pushVC</span><span class="p">(</span><span class="n">_</span> <span class="nv">vc</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So16UIViewControllerC18Eyerise_ExtensionsE5popVCyyF"></a>
+                    <a name="//apple_ref/swift/Method/popVC()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So16UIViewControllerC18Eyerise_ExtensionsE5popVCyyF">popVC()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Pops the top view controller from the navigation stack and updates the display.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">popVC</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So16UIViewControllerC18Eyerise_ExtensionsE14isNavBarHiddenSbv"></a>
+                    <a name="//apple_ref/swift/Property/isNavBarHidden" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So16UIViewControllerC18Eyerise_ExtensionsE14isNavBarHiddenSbv">isNavBarHidden</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Hide or show navigation bar</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isNavBarHidden</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So16UIViewControllerC18Eyerise_ExtensionsE11popToRootVCyyF"></a>
+                    <a name="//apple_ref/swift/Method/popToRootVC()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So16UIViewControllerC18Eyerise_ExtensionsE11popToRootVCyyF">popToRootVC()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Added extension for popToRootViewController</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">popToRootVC</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So16UIViewControllerC18Eyerise_ExtensionsE9presentVCyABF"></a>
+                    <a name="//apple_ref/swift/Method/presentVC(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So16UIViewControllerC18Eyerise_ExtensionsE9presentVCyABF">presentVC(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Presents a view controller modally.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">presentVC</span><span class="p">(</span><span class="n">_</span> <span class="nv">vc</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So16UIViewControllerC18Eyerise_ExtensionsE9dismissVCyyycSg10completion_tF"></a>
+                    <a name="//apple_ref/swift/Method/dismissVC(completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So16UIViewControllerC18Eyerise_ExtensionsE9dismissVCyyycSg10completion_tF">dismissVC(completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Dismisses the view controller that was presented modally by the view controller.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">dismissVC</span><span class="p">(</span><span class="nv">completion</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So16UIViewControllerC18Eyerise_ExtensionsE014addAsChildViewB0yAB_So0A0C02toH0tF"></a>
+                    <a name="//apple_ref/swift/Method/addAsChildViewController(_:toView:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So16UIViewControllerC18Eyerise_ExtensionsE014addAsChildViewB0yAB_So0A0C02toH0tF">addAsChildViewController(_:toView:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Adds the specified view controller as a child of the current view controller.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">addAsChildViewController</span><span class="p">(</span><span class="n">_</span> <span class="nv">vc</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="nv">toView</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So16UIViewControllerC18Eyerise_ExtensionsE18setBackgroundImageySSF"></a>
+                    <a name="//apple_ref/swift/Method/setBackgroundImage(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So16UIViewControllerC18Eyerise_ExtensionsE18setBackgroundImageySSF">setBackgroundImage(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Adds image named: as a UIImageView in the Background</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">setBackgroundImage</span><span class="p">(</span><span class="n">_</span> <span class="nv">named</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So16UIViewControllerC18Eyerise_ExtensionsE51hideKeyboardWhenTappedAroundAndCancelsTouchesInViewyyF"></a>
+                    <a name="//apple_ref/swift/Method/hideKeyboardWhenTappedAroundAndCancelsTouchesInView()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So16UIViewControllerC18Eyerise_ExtensionsE51hideKeyboardWhenTappedAroundAndCancelsTouchesInViewyyF">hideKeyboardWhenTappedAroundAndCancelsTouchesInView()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">hideKeyboardWhenTappedAroundAndCancelsTouchesInView</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2017 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2017-10-28)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
