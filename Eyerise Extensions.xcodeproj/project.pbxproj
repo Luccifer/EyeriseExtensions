@@ -295,7 +295,7 @@
 				TargetAttributes = {
 					BE52AB411F91E44400404FEB = {
 						CreatedOnToolsVersion = 9.0;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					BE52AB4A1F91E44400404FEB = {
